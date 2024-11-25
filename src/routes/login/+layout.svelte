@@ -1,11 +1,6 @@
-<script>
-
-</script>
-<div class="flex flex-col items-center justify-center px-6 pt-8 mx-auto md:h-screen pt:mt-0 dark:bg-gray-900">
-    <a href="#" class="flex items-center justify-center mb-8 text-2xl font-semibold lg:mb-10 dark:text-white">
-        <img src="/logo.png" class="mr-4 h-11" alt="Logo {NAME}">
-        <span>Flowbite</span>  
+<div class="flex flex-col items-center justify-center px-6 mx-auto h-screen dark:bg-gray-900">
+    <a href="/" class="flex items-center justify-center text-2xl font-semibold dark:text-white">
+        <img src="/logo.png" class="mr-4 h-28" alt="Logo Appote">
     </a>
-    <!-- Card -->
     <slot></slot>
 </div>
